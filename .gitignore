@@ -1,2 +1,4 @@
 maven
 .idea/workspace.xml
+
+target/test-classes/

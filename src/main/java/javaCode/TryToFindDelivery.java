@@ -37,4 +37,6 @@ public class TryToFindDelivery {
         if (source.contains("Доставка по всей Украине"))System.out.println("Элемент присутствует на странице");
         else System.out.println("Элемент пропал");
 
+        dr.quit();
+
 }}

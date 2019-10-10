@@ -2,4 +2,5 @@ maven
 .idea/workspace.xml
 
 target/test-classes/
+target/classes/
 src/main/forFiles/

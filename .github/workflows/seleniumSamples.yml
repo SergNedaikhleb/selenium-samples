@@ -1,16 +1,16 @@
-name: Java CI
+name: Java Selenium-samples CI
 
 on: [push]
 
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
 
     steps:
     - uses: nanasess/setup-chromedriver@master
       with:
-       chromedriver-version: '77.0.3865.40'
+       chromedriver-version: '79.0.3945.36'
     - run: |
        export DISPLAY=:99
        chromedriver --url-base=/wd/hub &
